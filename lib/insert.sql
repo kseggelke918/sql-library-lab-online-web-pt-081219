@@ -11,5 +11,7 @@ INSERT INTO authors (name) VALUES
 ("author2");
 
 INSERT INTO series (title, author_id, subgenre_id) VALUES 
-("title1", "author1", "subgenre1"),
+("title1", 1, 1),
+("title2", 2, 2),
+("title3", 3, 3);
 
