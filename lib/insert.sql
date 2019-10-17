@@ -10,4 +10,6 @@ INSERT INTO authors (name) VALUES
 ("author1"),
 ("author2");
 
-INSERT INTO series 
+INSERT INTO series (title, author_id, subgenre_id) VALUES 
+("title1", "author1", "subgenre1"),
+
