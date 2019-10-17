@@ -28,4 +28,21 @@ INSERT INTO characters (name, motto, species, author_id) VALUES
 ("character7", "motto7", "species7", 2),
 ("character8", "motto8", "species8", 2);
 
-INSERT INTO character_books
+INSERT INTO character_books (character_id, book_id) VALUES 
+(1, 1),
+(1, 2),
+(1, 3),
+(2, 1),
+(2, 2),
+(2, 3),
+(3, 1),
+(4, 3),
+(5, 4),
+(5, 5), 
+(5, 6),
+(6, 4), 
+(6, 5),
+(6, 6), 
+(7, 4),
+(8, 6);
+
