@@ -6,4 +6,6 @@ INSERT INTO subgenres (name) VALUES
 ("fantasy"),
 ("horror");
 
-INSERT INTO authors (name)
+INSERT INTO authors (name) VALUES 
+("author1"),
+("author2");
