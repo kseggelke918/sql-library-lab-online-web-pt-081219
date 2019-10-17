@@ -18,4 +18,5 @@ INSERT INTO books (title, year, series_id) VALUES
 ("title5", 2015, 2),
 ("title6", 2018, 2);
 
-INSERT INTO characters ()
+INSERT INTO characters (name, motto, species, author_id) VALUES
+("character1")
