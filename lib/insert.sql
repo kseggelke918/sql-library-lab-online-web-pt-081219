@@ -9,3 +9,5 @@ INSERT INTO subgenres (name) VALUES
 INSERT INTO authors (name) VALUES 
 ("author1"),
 ("author2");
+
+INSERT INTO series 
