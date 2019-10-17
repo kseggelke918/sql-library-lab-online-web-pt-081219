@@ -10,8 +10,12 @@ INSERT INTO authors (name) VALUES
 ("author1"),
 ("author2");
 
-INSERT INTO books (title, author_id, subgenre_id) VALUES 
-("title1", 1, 1),
-("title2", 2, 2),
-("title3", 3, 3);
+INSERT INTO books (title, year, series_id) VALUES 
+("title1", 1947, 1),
+("title2", 1970, 1),
+("title3", 1981, 1),
+("title4", 1985, 2),
+("title5", 2015, 2),
+("title6", 2018, 2);
+
 
